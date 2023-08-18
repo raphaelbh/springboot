@@ -1,7 +1,5 @@
 FROM openjdk:latest
 
-WORKDIR /application
-
 COPY . .
 
 RUN ./gradlew clean build
